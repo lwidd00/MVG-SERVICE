@@ -1,0 +1,90 @@
+/* GLOBALS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    height: 50px;
+}
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* SECTIONS */
+.services, .about, .contact {
+    padding: 40px 0;
+}
+.services h2,
+.about h2,
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.service-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.service-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 250px;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: #fff;
+    font-size: 0.9rem;
+}

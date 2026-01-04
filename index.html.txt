@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Your Logo" class="logo">
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Your Business Name</h1>
+            <p>Professional vehicle servicing, maintenance & repairs you can rely on.</p>
+            <a href="#contact" class="btn-primary">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services container">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-card">
+                <h3>Vehicle Servicing</h3>
+                <p>All makes and models serviced by experienced technicians.</p>
+            </div>
+            <div class="service-card">
+                <h3>MOT & Repairs</h3>
+                <p>Comprehensive MOT testing and repair work done right.</p>
+            </div>
+            <div class="service-card">
+                <h3>Diagnostics</h3>
+                <p>Advanced diagnostics to quickly find issues and fix them.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about container">
+        <h2>About Us</h2>
+        <p>We specialise in reliable servicing and maintenance for all types of vehicles. Our trained technicians use quality parts and provide friendly, professional service.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact container">
+        <h2>Contact Us</h2>
+        <p>Phone: 01623 375085</p>
+        <p>Email: info@yourbusiness.co.uk</p>
+        <p>Address: Tibshelf, Derbyshire, DE55 5NL</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Your Business Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
